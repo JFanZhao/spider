@@ -1,0 +1,2 @@
+# spider
+使用java+httpclient+httpcleaner，多线程、分布式爬去电商网站商品信息，数据存储在hbase上，并使用solr对商品建立索引，使用redis队列存储一个共享的url仓库；使用zookeeper对爬虫节点生命周期进行监视等。
